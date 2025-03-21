@@ -101,6 +101,7 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    padding-bottom: 11.5rem;
 }
 
 .content {
@@ -157,3 +158,65 @@ main{
     width: 100%;
     height: auto;
 }
+
+/*ABOUT*/
+
+.container__abount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.about_image {
+    flex: 1;
+    gap: 15px;
+    max-width: 40%;
+}
+
+.about_info {
+    flex: 2;
+    padding-left: 10rem;
+}
+
+
+.about .title h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+}
+
+.about .title{
+    padding-bottom: 55px;
+}
+
+.info:not(:last-child){
+    padding-bottom: 80px;
+    border-bottom: 1px solid #eb3850;
+}
+
+.red{
+    color: #cf253c;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.info img {
+    width: 80px; 
+    height: auto;
+}
+
+.info p{
+    font-weight: 530;
+}
+
+.info h4{
+    font-size: 20px;
+}
+
+
