@@ -58,6 +58,30 @@ body {
     font-size: 1rem;
 }
 
+.btn-type {
+    color: #000000;
+    border: 1px solid #eb3850;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+}
+.btn-type:hover {
+    background-color: #cf253c;
+    color: white;
+    border: none;
+}
+
+.abrir-btn{
+    background-color: #eb3850;
+    color: #fff;
+    border: 3px solid #eb3850;
+    font-size: 1.4rem;
+    padding: 10px 35px;
+}
+
+.abrir-btn:hover{
+    background-color: #cf253c;
+}
+
 .cadastro-btn{
     background-color: #eb3850;
     color: white;
@@ -66,6 +90,7 @@ body {
 
 .cadastro-btn:hover{
     background-color: #cf253c;
+    
 }
 
 .login-btn{
@@ -220,3 +245,38 @@ main{
 }
 
 
+/*CARTOES*/
+
+.cartoes{
+    padding-top: 3.6rem;
+}
+
+.cartoes .title{
+    text-align: center;
+}
+
+.cartoes .title h2{
+    font-size: 3rem;
+    color: black;
+    opacity: 0.9;
+    padding-bottom: 2rem;
+}
+.cartoes .title p{
+    font-size: 1.2rem;
+    color: black;
+    opacity: 0.9;
+    font-weight: 530;
+    padding-bottom: 2.5rem;
+}
+
+.cartoes .img-cartao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.cartoes .abrir{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
