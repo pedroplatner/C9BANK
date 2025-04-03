@@ -11,6 +11,11 @@ body {
     color: #333;
 }
 
+section {
+    min-height: 100vh; /* Faz a section ocupar 100% da altura da viewport */
+}
+
+
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -255,10 +260,10 @@ main{
     text-align: center;
 }
 
-.cartoes .title h2{
+.cartoes .title h1{
     font-size: 3rem;
     color: black;
-    opacity: 0.9;
+    opacity: 0.8;
     padding-bottom: 2rem;
 }
 .cartoes .title p{
@@ -279,4 +284,103 @@ main{
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
+
+/*Download*/
+
+.dowload{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.escrita_download .store{
+    display:flex;
+    gap: 40px;
+}
+
+.escrita_download h1{
+    color: black;
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+    font-weight: 200;
+}
+
+.abort{
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.red{
+    color: #cf253c;
+}
+    
+.download_app{
+    background-color: #353436;;
+    padding: 10px 32px;
+    color: white;
+    display: flex;
+    align-content: space-between;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+}
+
+.download_app:hover{
+    background-color: #353436;;
+    padding: 10px 32px;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
+.escrita_download button{
+    gap: 20px;
+}
+
+.store.download_app p{
+    font-size: 15px;
+}
+
+.logoc9{
+    width: 380px;
+    height: 380px;
+    border-radius: 56px;
+    background: #eb3850;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoc9 img{
+    height: 250px;
+}
+
+
+/*Blog*/
+
+.blog .letras{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.blog .conteudo{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.blog .conteudo img{
+   border-radius: 15px;
+}
+
+
