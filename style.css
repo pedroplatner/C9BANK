@@ -499,3 +499,179 @@ main{
       justify-content: center;
     }
   }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+  }
+
+  
+  @media (max-width: 767px) {
+    body main{
+        margin: 0px;
+        padding: 40px 24px;
+    }
+    
+    .menu, .cards, .loja{
+        display: none;
+    }
+    .login{
+        display: none
+    }
+
+    .escrita h1{
+        font-size: 40px;
+        width: 205px;
+        margin-top: -100px;
+        color: black;
+        opacity:90%;
+    }
+
+    .escrita p{
+        font-size: 18px;
+        width: 330px;
+        color: black;
+        opacity:90%;
+        margin: 0;
+    }
+
+    .beneficios ul{
+        flex-direction: column;
+
+    }
+
+    .open {
+        width: 300px;
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .open h4 {
+        margin: 0;
+        width: 400px;
+    }
+
+
+    .about{
+        display: none;
+    }
+
+    .cartoes{
+        margin-top: -150px;
+    }
+
+    .cartoes .title h1{
+        font-size: 32px;
+        margin: 0px 0px 24px;
+        color: black;
+        opacity: 100%;
+        font-weight: 200;
+    }
+
+    .cartoes .title p{
+        font-size: 19px;
+        margin-top: -40px;
+    }
+
+    .img-cartao{
+        width: 350px;
+        height: 420px;
+        margin: 10px 0px;
+    }
+        
+
+    .abrir{
+        padding-top: -30px;
+    }
+    .abrir .abrir-btn{
+        display: none;
+    }
+
+    .abrir .btn-type{
+        background-color: #eb3850;
+        color: white;
+        cursor: pointer;
+    }
+
+    .abrir .btn-type:hover{
+        background-color: #cf253c;
+        color: white;
+        cursor: pointer;
+    }
+
+
+    .dowload .escrita_download h1{
+        font-size: 32px;
+    }
+
+    .dowload .escrita_download p{
+        font-size: 18px;
+        margin: 24px 0px 56px;
+        width: 348px;
+
+    }
+
+    .store {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 343px;
+        height: 168px;
+    }
+
+    .download_app{
+        height: 68px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .download_app p{  
+        font-size: 16px;  
+        padding-top: 30px;
+    }
+
+    .download_app:hover {
+        transform: none;
+        cursor: pointer;
+        background-color: #cf253c;
+    }
+
+    .logoc9{
+        display: none;
+    }
+
+    .blog .letras a:hover{
+        transform: none;
+    }
+
+    .blog .conteudo img{
+        width: 342px;
+        height: 250px;
+    }
+
+    .blog .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .letras{
+        display: flex;
+        align-items: center;
+    }
+
+     .blog .letras h2{
+        font-size: 30px;
+    }
+
+    .blog .conteudo h3{
+        font-size: 28px;
+    }
+
+    .blog .conteudo p{
+        font-size: 16px;
+        font-weight: 200;
+    }
+}
