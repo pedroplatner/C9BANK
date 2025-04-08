@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>C9-BANK</title>
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+
 </head>
 <body>
     <header class="navbar">
@@ -21,11 +23,17 @@
             <a href="#" class="btn login-btn">Entrar</a>
             <a href="#" class="btn cadastro-btn">Abra sua conta</a>
         </div>
-
-        <div id="menu-mobile" class="">
-            <div></div>
-            <div></div>
-          </div>
+    
+        <button id="mobile_btn" aria-label="Menu">☰</button> 
+    
+        <div id="mobile_menu" class="hidden">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#">Benefícios</a></li>
+                <li class="nav-item"><a href="#">Conta Digital</a></li>
+                <li class="nav-item"><a href="#">Suporte</a></li>
+                <li class="nav-item"><a href="#">Blog</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
